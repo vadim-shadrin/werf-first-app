@@ -1,0 +1,7 @@
+__pycache__/
+logs/
+1s-check/.ipynb_checkpoints/*
+1s-check/auth.json
+/node_modules
+/minio_data
+package-lock.json

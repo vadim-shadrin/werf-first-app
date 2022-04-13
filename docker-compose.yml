@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - 8085:80
+    environment:
+      API_VERSION: /api/v1
+    volumes:
+      - ./api:/app
